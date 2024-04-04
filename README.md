@@ -4,28 +4,26 @@
 
 ✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰
 
-You = True
+    You = True
 
+    def for_u():
 
-def for_u():
+        while You:
 
-    while You:
+            print(I love u)
 
-        print(I love u)
+            response = input("Do you love me back? 'Y' or 'N' - ")
 
-        response = input("Do you love me back? 'Y' or 'N' - ")
+            if response.lower() == 'Y':
 
-        if response.lower() == 'Y':
+                pass
 
-            pass
+            else
 
-        else
+              break
 
-          break
-
-          print("kys")
+              print("kys")
         
-
-for_u()
+    for_u()
 
 ✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰
